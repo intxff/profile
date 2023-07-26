@@ -107,7 +107,7 @@ function App() {
             </div>
             <div className="relative flex gap-x-2 items-center justify-center -bottom-24">
               <div className="bg-white cursor-pointer flex items-center justify-center rounded-full w-12 h-12 hover:bg-emerald-300">
-                <GoMarkGithub size={30} />
+                <a href="https://github.com/intxff"><GoMarkGithub size={30} /></a>
               </div>
             </div>
           </div>
