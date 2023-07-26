@@ -5,7 +5,7 @@ name: build profile
 
 on:
   push:
-    branches: [ "publish" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -29,5 +29,14 @@ jobs:
         
     - name: Setup pnpm
       uses: pnpm/action-setup@v2.4.0
-    - run: pnpm install
-    - run: pnpm build
+      
+    - name: Build
+      run: pnpm install;pnpm build
+    
+    - name: Deploy
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: dist
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
