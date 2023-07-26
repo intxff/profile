@@ -48,7 +48,7 @@ Error generating stack: `+i.message+`
             w-0 h-0
             lg:h-[600px] lg:w-[350px]
             ${Sd} lg:my-auto lg:pt-[140px] lg:pb-[40px]
-            `,children:[v.jsxs("div",{className:"",children:[v.jsx("img",{src:fc,className:"border-4 rounded-full w-32 h-32 m-auto"}),v.jsx("p",{className:"text-center mt-8 text-2xl antialiased",children:"INTXFF"}),v.jsx("p",{className:"text-center text-slate-400 text-sm antialiased italic",children:"A Backend Developer"})]}),v.jsx("div",{className:"relative flex gap-x-2 items-center justify-center -bottom-24",children:v.jsx("div",{className:"bg-white cursor-pointer flex items-center justify-center rounded-full w-12 h-12 hover:bg-emerald-300",children:v.jsx(mc,{size:30})})})]})}),v.jsxs("div",{className:`
+            `,children:[v.jsxs("div",{className:"",children:[v.jsx("img",{src:fc,className:"border-4 rounded-full w-32 h-32 m-auto"}),v.jsx("p",{className:"text-center mt-8 text-2xl antialiased",children:"INTXFF"}),v.jsx("p",{className:"text-center text-slate-400 text-sm antialiased italic",children:"A Backend Developer"})]}),v.jsx("div",{className:"relative flex gap-x-2 items-center justify-center -bottom-24",children:v.jsx("div",{className:"bg-white cursor-pointer flex items-center justify-center rounded-full w-12 h-12 hover:bg-emerald-300",children:v.jsx("a",{href:"https://github.com/intxff",children:v.jsx(mc,{size:30})})})})]})}),v.jsxs("div",{className:`
           absolute lg:w-[1170px] w-full h-[600px] flex flex-row
           ${e=="Home"?"transition-[margin] duration-1000 ml-0 lg:ml-0":"transition-[margin] duration-1000 ml-0 lg:ml-[350px]"}
           justify-items-center items-center content-center
