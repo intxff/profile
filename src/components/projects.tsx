@@ -1,3 +1,4 @@
+import { FaLink } from 'react-icons/fa';
 type Projects = "Rdcross" | "Mango" | "Regost";
 interface ProjectEntry {
   name: Projects,
@@ -47,13 +48,13 @@ export default function() {
     return (
       <>
         <div className="py-2">
-          <span className="text-xl text-blue-600 bold"><a href={url}>{name}</a></span>
+          <a href={url}><span className="text-xl text-blue-600 bold flex">{name}<FaLink size="8px" /></span></a>
           <span className="max-sm:hidden ml-2 text-sm text-slate-500">{subname}</span>
         </div>
         <div className="sm:hidden text-slate-500 text-sm">
           {subname}
         </div>
-        <ol className="my-1 list-decimal list-inside">
+        <ol className="my-1 list-decimal list-inside ml-2">
           {temp}
         </ol>
       </>

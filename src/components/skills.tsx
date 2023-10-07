@@ -12,7 +12,7 @@ const LanguageSheet: LanguageEntry[] = [{
   name: "Go",
   description: [
     "Proficient in go syntax and common toolchains",
-    "Know about the underlying implementation of go compiler and runtime",
+    "Understand underlying implementation of go compiler and runtime",
     "Read partial code of go compiler and runtime",
     "Read a lot of source code like clash, v2ray, smux, gin and so on",
     "Familiar with go concurrent programming",
@@ -22,14 +22,14 @@ const LanguageSheet: LanguageEntry[] = [{
   name: "SQL",
   description: [
     "Familiar with standard sql statements",
-    "Understanding of sql performance analysis and tuning",
-    "Understanding of underlying implementation",
+    "Understand sql performance analysis and tuning",
+    "Understand underlying implementation",
   ],
   icon: <SiMysql size="30px" color={LanguageIconColor} />,
 }, {
   name: "Web Frontend",
   description: [
-    "understaning html+css+js/ts",
+    "understand html+css+js/ts",
     "able to use React framework",
   ],
   icon: <SiTsnode size="30px" color={LanguageIconColor} />,
@@ -62,8 +62,7 @@ const BasicSheet: BasicEntry[] = [{
     "Familiar with TCP/IP protocol and network programming",
     "Familiar with http/1.1 and grpc",
     "Understand http2, websocket, quic and grpc",
-    "Good at network modules in Linux such as iptables, xdp, namespace, virtual network device and so on",
-    "Good at using tcpdump and wireshark to capture and analy network package",
+    "Good at network modules in Linux such as iptables, xdp, namespace, virtual network device and so on", "Good at using tcpdump and wireshark to capture and analy network package",
     "Understand docker network",
   ],
   icon: <FaNetworkWired size="30px" color={BasicIconColor} />,
