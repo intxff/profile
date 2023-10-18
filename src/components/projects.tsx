@@ -32,9 +32,9 @@ const ProjectSheet: ProjectEntry[] = [{
   subname: "Gost management script",
   url: "https://gist.github.com/intxff/2be99ccb0c32c29b89cf39de40f3035c",
   description: [
-    "Support basic download, update, remove",
-    "Support create, edit and remove configuration",
-    "Support optimize network environment simply",
+    "Support for basic downloads, updates, deletions",
+    "Support for creating, editing and deleting configuration",
+    "Support for optimizing network environment simply",
   ]
 }]
 
