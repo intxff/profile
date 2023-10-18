@@ -29,8 +29,8 @@ const LanguageSheet: LanguageEntry[] = [{
 }, {
   name: "Web Frontend",
   description: [
-    "understand html+css+js/ts",
-    "able to use React framework",
+    "Understand html+css+js/ts",
+    "Able to use React framework",
   ],
   icon: <SiTsnode size="30px" color={LanguageIconColor} />,
 }, {
@@ -43,8 +43,8 @@ const LanguageSheet: LanguageEntry[] = [{
 }, {
   name: "Others",
   description: [
-    "good at C, Lua, and Python",
-    "know a little about Rust",
+    "Good at C, Lua, and Python",
+    "Know a little about Rust",
   ],
   icon: <SiGnometerminal size="30px" color={LanguageIconColor} />,
 }]

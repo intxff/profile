@@ -11,30 +11,30 @@ const ProjectSheet: ProjectEntry[] = [{
   subname: "A proxy tool",
   url: "https://github.com/intxff/rdcross",
   description: [
-    "transparent proxy by TUN and fake ip",
-    "various balancing policy and match patterns",
-    "easily combine policy and pattern and adjust priority of different patterns",
-    "shadowsocks, socks and raw tcp/udp with dual stack protocol(v4/v6)",
-    "fullcone nat",
-    "easily configured as server，client or relay node",
+    "Transparent proxy by TUN and fake ip",
+    "Various balancing policy and match patterns",
+    "Easily combine policy and pattern and adjust priority of different patterns",
+    "Shadowsocks, socks and raw tcp/udp with dual stack protocol(v4/v6)",
+    "Fullcone nat",
+    "Easily configured as server，client or relay node",
   ],
 }, {
   name: "Mango",
   subname: "Discussion platform like juejin + wordpress",
   url: "https://github.com/intxff/mango",
   description: [
-    "designed with micro services",
-    "combined with k8s basic service",
-    "apisix as gateway",
+    "Designed with micro services",
+    "Combined with k8s basic service",
+    "Apisix as gateway",
   ],
 }, {
   name: "Regost",
   subname: "Gost management script",
   url: "https://gist.github.com/intxff/2be99ccb0c32c29b89cf39de40f3035c",
   description: [
-    "support basic download, update, remove",
-    "support create, edit and remove configuration",
-    "support optimize network environment simply",
+    "Support basic download, update, remove",
+    "Support create, edit and remove configuration",
+    "Support optimize network environment simply",
   ]
 }]
 
